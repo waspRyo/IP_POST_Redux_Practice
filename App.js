@@ -1,12 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { Provider } from 'react-redux';
 import { StyleSheet, Text, View } from 'react-native';
 
-import TodoApp from './src/TodoApp';
+import Counter from './src/Counter';
+import {store} from './src/store/store';
 
 export default function App() {
   return (
-    <TodoApp/>
+    <Provider store={store}>
+      <Counter/>
+    </Provider>
   );
 }
 
