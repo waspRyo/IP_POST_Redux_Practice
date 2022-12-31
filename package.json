@@ -10,7 +10,7 @@
     "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "expo": "~41.0.0",
+    "expo": "~47.0.9",
     "expo-status-bar": "^1.0.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "babel-preset-expo": "~8.1.0"
+    "babel-preset-expo": "~8.1.1"
   },
   "private": true,
   "snyk": true
